@@ -10,19 +10,19 @@ public class MetaDataBasicInfo {
         Connection myConn = null;
 
         try {
-            // 1. Get a connection to database
+            // Get a connection to database
             myConn = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/demo", "student", "nites");
 
-            // 2. Get metadata
+            // Get metadata
             DatabaseMetaData databaseMetaData = myConn.getMetaData();
 
-            // 3. Display info about database
+            // Display info about database
             System.out.println("Product name: " + databaseMetaData.getDatabaseProductName());
             System.out.println("Product version: " + databaseMetaData.getDatabaseProductVersion());
             System.out.println();
 
-            // 4. Display info about JDBC Driver
+            // Display info about JDBC Driver
             System.out.println("JDBC Driver name: " + databaseMetaData.getDriverName());
             System.out.println("JDBC Driver version: " + databaseMetaData.getDriverVersion());
 
