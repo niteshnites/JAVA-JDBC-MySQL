@@ -2,7 +2,7 @@ README: JDBC MYSQL
 =====================================
 
 Setting up/run the Code
--------------------
+--------------------------------------
 
 1. In Eclipse or IntelliJ IDEA, import the project folder.
 	
@@ -16,3 +16,13 @@ Setting up/run the Code
 	- In the source code, update the database URL, user id and password for your local environment
 
 4. Finally, run the program in Eclipse or IntelliJ IDEA
+
+Learned How To
+--------------------------------------
+
+1. Connect to MySQL Database with Java
+2. Submit SQL statement to insert, update, delete data
+3. Handle SQL parameters with Prepared Statements
+4. Calls stored procedures and handle various parameters types (In, Out, InOut and Result Set)
+5. Read and Write BLOB and CLOB data files
+6. Configure your database connections information with properties files
