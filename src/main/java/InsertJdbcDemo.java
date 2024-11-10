@@ -21,7 +21,7 @@ public class InsertJdbcDemo {
 
             // Insert a new employee
             System.out.println("Inserting a new employees to database");
-            int rowsA = myStmt.executeUpdate(
+            int rowsAffected = myStmt.executeUpdate(
                     "insert into employees (last_name, first_name, email, department, salary)" +
                             "values ('Bhardwaj', 'Nitesh', 'nites@email.com' ,'DEV', '33000.00')"
             );
