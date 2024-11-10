@@ -1,7 +1,7 @@
 README: JDBC MYSQL
 =====================================
 
-Setting up the Code
+Setting up/run the Code
 -------------------
 
 1. In Eclipse or IntelliJ IDEA, import the project folder.
